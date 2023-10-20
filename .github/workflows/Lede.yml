@@ -24,9 +24,10 @@ on:
       CONFIG_FILE:
         description: '请选择配置文件'
         required: true
-        default: 'x86_64'
+        default: 'er_x'
         type: choice
         options:
+          - 'er_x'
           - 'aarch64'
           - 'asus_rt-acrh17'
           - 'd-team_newifi-d2'
